@@ -1,0 +1,126 @@
+{
+  "personal": {
+    "name": "Anusree Pankan",
+    "title": "MERN Stack Developer",
+    "email": "anusreepankan2000@gmail.com",
+    "phone": "+91 6282 466 051",
+    "location": "Kannur, Kerala",
+    "linkedin": "www.linkedin.com/in/anusree-pankan",
+    "github": "https://github.com/anusreegithub",
+    "summary": "I have 1.6 years of professional experience building responsive, high-performance web applications. Skilled in React.js, Node.js, Express, MongoDB, and TypeScript, with hands-on expertise in REST APIs and cloud deployment (AWS, Vercel, Render, Netlify). I love creating scalable, user-friendly solutions that boost engagement, accessibility, and performance.",
+    "aboutme": "From crafting sleek interfaces with React.js to designing robust backends with Node.js & Express, I thrive on turning ideas into reliable, real-world applications. With over 1.5 years in full stack development and 30+ completed projects, I focus on building apps that people love to use."
+  },
+  "experience": [
+    {
+      "title": "Web Developer",
+      "company": "Trigeminal.ai",
+      "location": "Bangalore",
+      "duration": "Feb 2023 – Jul 2024",
+      "achievements": [
+        "Delivered 30+ responsive web applications, driving a 40% increase in user engagement through optimized performance and modern UI design.",
+        "Engineered the corporate website for Trigeminal AI, strengthening online presence and boosting brand recognition across key markets.",
+        "Implemented SEO best practices and mobile-first design, improving search engine rankings and enhancing accessibility for 5,000+ monthly visitors.",
+        "Developed interactive platforms (e.g., restaurant ordering system, image gallery for DigiDxDoc) with intuitive UX, resulting in higher customer retention rates.",
+        "Collaborated with designers and cross-functional teams to deploy scalable, production-ready solutions that reduced development time by 20%."
+      ],
+      "techStack": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Tailwind CSS",
+        "JavaScript",
+        "React.js",
+        "MongoDB",
+        "Node.js",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "MERN Stack Intern",
+      "company": "Luminar Technolab",
+      "location": "Kochi",
+      "duration": "Aug 2022 – Jan 2023",
+      "achievements": [
+        "Completed a NACTET-certified MERN Stack program, gaining hands-on experience in full-stack development with React, Node.js, Express, and MongoDB.",
+        "Built and deployed multiple capstone projects, applying modern frameworks (React, Angular) and version control with Git/GitHub to simulate real-world workflows.",
+        "Gained practical skills in React, Angular, Node.js, Express, MongoDB, and Git."
+      ],
+      "techStack": ["React", "Angular", "Node.js", "Express", "MongoDB", "Git"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Ecommerce Web Application",
+      "description": "Developed a furniture e-commerce platform with payments, wallet integration, Google Sign-In, and coupons. Deployed on AWS with media handling via Cloudinary.",
+      "techStack": ["MongoDB", "Express.js", "Node.js", "HBS"],
+      "image": "/project1.png",
+      "liveDemo": "https://woodland-ecommerce.onrender.com/",
+      "github": "https://github.com/anusreegithub/woodland-ecommmerce"
+    },
+
+    {
+      "name": "Todo listing Application",
+      "description": "Full-stack Todo app with React, Node.js/Express, and MongoDB. Manage tasks with a responsive UI.",
+      "techStack": [
+        "React.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Node.js"
+      ],
+      "image": "/project3.png",
+      "liveDemo": "https://todo-in-react-phi.vercel.app/",
+      "github": "https://github.com/anusreegithub/Todo_In_React"
+    },
+    {
+      "name": "Pet Clinic Website",
+      "description": "Built an appointment booking system with responsive UI and cross-device compatibility.",
+      "techStack": ["React.js", "Node.js", "MongoDB"],
+      "image": "/project2.png",
+      "liveDemo": "https://pappaslifeline-dev.netlify.app/",
+      "github": "https://github.com/anusreegithub/papaslifeline"
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Technology in Applied Electronics and Instrumentation Engineering",
+    "university": "APJ Abdul Kalam Technological University",
+    "college": "MES College of Engineering Kuttippuram",
+    "duration": "2018-2022",
+    "thesis": "IoT-based Vehicle Accident Detection System with real-time location alerts via Bluetooth."
+  },
+  "skills": {
+    "frontend": [
+      "React.js",
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Bootstrap"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "JWT Authentication",
+      "State Management"
+    ],
+    "database": ["MongoDB", "SQL"],
+    "tools": [
+      "GitHub",
+      "AWS",
+      "Cloudinary",
+      "VS Code",
+      "Render",
+      "Netlify",
+      "Vercel"
+    ]
+  },
+  "languages": [
+    "English (Fluent)",
+    "Malayalam (Native Speaker)",
+    "Hindi (Elementary)"
+  ],
+  "interests": ["Competitive coding (LeetCode)", "Web Design", "Music"],
+  "volunteer": "National Service Scheme (2019-2021)"
+}
