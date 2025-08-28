@@ -73,7 +73,7 @@ export default function Header({ data }: HeaderProps) {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <button className="md:hidden text-[#FFD700] hover:text-yellow-600" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
@@ -86,7 +86,7 @@ export default function Header({ data }: HeaderProps) {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                  className="text-[#FFD700] hover:text-yellow-600 transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
@@ -95,24 +95,24 @@ export default function Header({ data }: HeaderProps) {
             </nav>
             <div className="flex items-center space-x-4 mt-4 pt-4 border-t border-gray-100">
               <a
-                href={`https://${data.github}`}
+                href={`${data.github}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                className="text-[#FFD700] hover:text-yellow-600 transition-colors duration-200"
               >
                 <Github size={20} />
               </a>
               <a
-                href={`https://${data.linkedin}`}
+                href={`${data.linkedin}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                className="text-[#FFD700] hover:text-yellow-600 transition-colors duration-200"
               >
                 <Linkedin size={20} />
               </a>
               <a
                 href={`mailto:${data.email}`}
-                className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+                className="text-[#FFD700] hover:text-yellow-600 transition-colors duration-200"
               >
                 <Mail size={20} />
               </a>
