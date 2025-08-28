@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "Anusree Pankan Portfolio",
     images: [
       {
-        url: "/shareImg.png",
+        url: "/https://res.cloudinary.com/dezmechji/image/upload/v1756385369/shareImg_pbbcgt.png",
         width: 1200,
         height: 630,
         alt: "Anusree Pankan Portfolio",
