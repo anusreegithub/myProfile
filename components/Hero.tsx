@@ -17,7 +17,7 @@ export default function Hero({ data }: HeroProps) {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-20">
         <div className="text-center">
-          <div className="mb-1 relative">
+          <div className="mb-1 mt-2 relative">
             <img
               src="/profile.png"
               alt={data.name}
@@ -40,7 +40,14 @@ export default function Hero({ data }: HeroProps) {
           <p className="text-lg text-white max-w-3xl mx-auto mb-8 leading-relaxed">{data.summary}</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-[#FFD700] text-black px-8 py-3 rounded-lg hover:bg-yellow-700 hover:scale-105 hover:shadow-xl transition-all duration-300 flex items-center gap-2 relative overflow-hidden group">
+            <button
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/Anusree Pankan.pdf";
+                link.download = "/Anusree Pankan.pdf";
+                link.click();
+              }}
+              className="bg-[#FFD700] text-black px-8 py-3 rounded-lg hover:bg-yellow-700 hover:scale-105 hover:shadow-xl transition-all duration-300 flex items-center gap-2 relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-r from-[#FFD700] to-purple-400 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
               <Download size={20} />
               Download Resume
@@ -54,7 +61,7 @@ export default function Hero({ data }: HeroProps) {
             </a>
           </div>
 
-          <div className="mt-16">
+          <div className="mt-14">
             <a href="#about" className="inline-block animate-bounce hover:animate-pulse">
               <ArrowDown size={24} className="text-gray-400 hover:text-blue-500 transition-colors duration-200" />
             </a>

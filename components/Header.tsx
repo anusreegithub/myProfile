@@ -46,7 +46,7 @@ export default function Header({ data }: HeaderProps) {
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href={`https://${data.github}`}
+              href={`${data.github}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#FFD700] hover:text-yellow-600 transition-colors duration-200"
@@ -54,7 +54,7 @@ export default function Header({ data }: HeaderProps) {
               <Github size={20} />
             </a>
             <a
-              href={`https://${data.linkedin}`}
+              href={`${data.linkedin}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#FFD700] hover:text-yellow-600 transition-colors duration-200"
@@ -65,8 +65,7 @@ export default function Header({ data }: HeaderProps) {
               href={`mailto:${data.email}`}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Send an email"
-              className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-[#1a1a1a]  text-[#FFD700] hover:bg-[#FFD700] hover:text-black transition-colors duration-300 shadow-md"
+              className="text-[#FFD700] hover:text-yellow-600 transition-colors duration-200"
             >
               <Mail size={18} />
             </a>

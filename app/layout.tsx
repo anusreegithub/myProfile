@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Anusree Pankan | MERN Stack Developer",
     description:
       "Explore my projects, skills, and experience in full-stack development.",
-    url: "https://yourdomain.com",
+    url: "https://my-profile-two-pearl.vercel.app/",
     siteName: "Anusree Pankan Portfolio",
     images: [
       {

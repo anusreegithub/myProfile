@@ -84,7 +84,7 @@ export default function Skills({ data }: SkillsProps) {
 
         {/* --- TOOLS AND SOFTWARE Section --- */}
         <div className="text-center mt-28 mb-16">
-          <h3 className="text-2xl font-semibold tracking-wider text-gray-400 uppercase">
+          <h3 className="text-4xl font-bold text-[#FFD700] mb-4">
             Tools and Software
           </h3>
         </div>
