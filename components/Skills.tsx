@@ -29,7 +29,7 @@ const skillIconMap: { [key: string]: string } = {
   "VS Code": "/icons/vscode.svg",
   "Cloudinary": "/icons/cloudinary.svg",
   "Vercel": "/icons/vercel.svg",
-  "EC2": "/icons/EC2.svg"
+  "EC2": "/icons/ec2.svg"
 };
 
 const SkillDisplay = ({ name }: { name: string }) => {
