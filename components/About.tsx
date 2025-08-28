@@ -28,7 +28,7 @@ export default function About({ data }: AboutProps) {
             <div className="grid grid-cols-2 gap-6">
               <div>
                 <h4 className="font-semibold text-[#FFD700] mb-2">Experience</h4>
-                <p className="text-white">1.5+ Years</p>
+                <p className="text-white">1.6+ Years</p>
               </div>
               <div>
                 <h4 className="font-semibold text-[#FFD700] mb-2">Projects</h4>

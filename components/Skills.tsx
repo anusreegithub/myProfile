@@ -65,7 +65,7 @@ export default function Skills({ data }: SkillsProps) {
   const softwareAndTools = data.tools.filter(tool => tool !== "GitHub");
 
   return (
-    <section id="skills" className="py-24 bg-[#0D1117]">
+    <section id="skills" className="py-24 bg-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* --- SKILLS Section --- */}

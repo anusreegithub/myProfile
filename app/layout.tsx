@@ -5,7 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'ANUSREE PANKAN - MERN STACK DEVELOPER',
-  description: "Portfolio of Anusree Pankan, a MERN Stack Developer with 1.5+ years experience in building scalable, user-friendly applications.",
+  description: "Portfolio of Anusree Pankan, a MERN Stack Developer with 1.6+ years experience in building scalable, user-friendly applications.",
   keywords: [
     "MERN Stack Developer",
     "React",
