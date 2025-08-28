@@ -90,31 +90,17 @@
   },
   "skills": {
     "frontend": [
-      "React.js",
-      "JavaScript (ES6+)",
+      "React JS",
+      "JavaScript",
       "TypeScript",
       "HTML",
       "CSS",
       "Tailwind CSS",
       "Bootstrap"
     ],
-    "backend": [
-      "Node.js",
-      "Express.js",
-      "REST APIs",
-      "JWT Authentication",
-      "State Management"
-    ],
-    "database": ["MongoDB", "SQL"],
-    "tools": [
-      "GitHub",
-      "AWS",
-      "Cloudinary",
-      "VS Code",
-      "Render",
-      "Netlify",
-      "Vercel"
-    ]
+    "backend": ["Node JS", "Express JS", "REST APIs", "JWT Authentication"],
+    "database": ["MongoDB"],
+    "tools": ["GitHub", "AWS", "Cloudinary", "VS Code", "Vercel", "EC2"]
   },
   "languages": [
     "English (Fluent)",
