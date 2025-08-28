@@ -9,9 +9,7 @@ interface SkillsProps {
   };
 }
 
-// Map skill names from your portfolio.json to their icon paths in `public/icons`
 const skillIconMap: { [key: string]: string } = {
-  // --- Skills ---
   "HTML": "/icons/html.svg",
   "CSS": "/icons/css.svg",
   "JavaScript": "/icons/javascript.svg",
@@ -31,6 +29,7 @@ const skillIconMap: { [key: string]: string } = {
   "VS Code": "/icons/vscode.svg",
   "Cloudinary": "/icons/cloudinary.svg",
   "Vercel": "/icons/vercel.svg",
+  "EC2": "/icons/EC2.svg"
 };
 
 const SkillDisplay = ({ name }: { name: string }) => {
